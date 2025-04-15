@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tribute Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Tribute to A.P.J. Abdul Kalam</h1>
+    <img src="C:\Users\shiva\Downloads\apj.jpg" alt="A.P.J. Abdul Kalam" class="hero-img">
+
+    <p class="quote">"Dream, dream, dream. Dreams transform into thoughts and thoughts result in action."</p>
+
+    <div class="content">
+      <p>A.P.J. Abdul Kalam was an Indian aerospace scientist and the 11th President of India. Known as the Missile Man of India, he played a major role in India's space and defense development.</p>
+      <p>I admire him for his humility, dedication to education, and inspiring vision for the youth of the nation. His life and words continue to motivate millions across the world.</p>
+    </div>
+  </div>
+
+</body>
+</html>
+CSS CODE
+body {
+    background-color: #fefce8;
+    font-family: 'Georgia', serif;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #4b5563;
+  }
+  
+  .hero-img {
+    width: 30%;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+  
+  .quote {
+    font-style: italic;
+    color: #9f1239;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
